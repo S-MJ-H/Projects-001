@@ -1,0 +1,47 @@
+* {
+    border: 2px solid red;
+}
+.nav {
+    display: flex;
+}
+.nav__list {
+    
+    
+    
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(92, 76, 151);
+}
+
+img {
+  height: 300px;
+  width: 600px;
+  padding: 150px;
+  background-color: rgb(232, 233, 193);
+  margin: 0%;
+  
+}
+
+
+.flex-container {
+    display: flex;
+    color: blueviolet;
+    padding: 20px;
+    justify-content: center;
+    gap: 16px;
+    font-size: 40px;   
+    background-color: aqua; 
+     
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    flex-direction: row;
+    
+
+  }
